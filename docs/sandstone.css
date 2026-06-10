@@ -3,7 +3,9 @@ Free to use CSS template by Katie (#106445).
 This code may be altered, edited, or re-uploaded. 
 This template may be used to create paid codes (pre-mades and commissions).
 Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
-Changed version of DUSTYBROWNCSS by Vulturetalon, editted by Worm.
+Edited by Vulturetalon originally, changes to make it sandstone-themed by Worm.
+
+
 */
 
 /* FONT (From Google Fonts) */
@@ -13,16 +15,16 @@ Changed version of DUSTYBROWNCSS by Vulturetalon, editted by Worm.
 /* BACKGROUND */
 
 body {
-	background: #F5F0DC center center fixed;
+	background: #F1E6CE center center fixed;
 	background-size: 100%;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #A07C4C
+	color: #a68d79
 }
 
 #chatMessagePinned {
-    background: #A07C4C;
+    background: #a68d79;
     border-bottom: 2px solid #5C5C5C;
-    color: #F5F0DC;
+    color: #F1E6CE;
     display: table;
     height: 46px;
     line-height: 24px;
@@ -58,7 +60,7 @@ body {
 
 .table, .item, .table .right, .table .right_odd, div .feature, .table .top, .table th, .item-header, .table .bottom, .item-footer, .cave-grid, div .left, .mound-grid, .table .left, .inner-table .right {
 	border: none;
-	color: #F5F0DC;
+	color: #F1E6CE;
 }
 
 
@@ -76,7 +78,7 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: #A07C4C;
+	background: #A68D79;
 	border-bottom: none;
 	color: #2d1402;
 	border-radius: 10px
@@ -93,7 +95,7 @@ body {
 .navbar li a:hover {
 	background: rgb(220 219 205 / 50%) !important;
 	border-bottom: none;
-	color: #A07C4C !important;
+	color: #a68d79 !important;
 	border-radius: 0px
 }
 
@@ -108,14 +110,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #F5F0DC
+	color: #e6dccc
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "By Eden (#243408)";
-        color: #F5F0DC;
+        color: #e6dccc;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -165,14 +167,14 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgb(166 141 121) !important;
 	border: none;
-	color: #F5F0DC;
+	color: #e6dccc;
 	border-radius: 10px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #A07C4C;
+	color: #a68d79;
 	font-size: 50px;
 	text-align: center;
       font-family: 'Josefin Sans', sans-serif;
@@ -184,7 +186,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #A07C4C;
+	color: #a68d79;
 	font-size: 24px;
 	text-align: center
 }
@@ -193,7 +195,7 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #A07C4C !important;
+	color: #a68d79 !important;
 	font-size: 14px !important
 }
 
@@ -207,16 +209,16 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: #A07C4C !important;
+	background: #a68d79 !important;
 	box-shadow: none !important;
 	border: none !important;
-	color: #F5F0DC !important;
+	color: #e6dccc !important;
 	border-radius: 0px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: #F5F0DC;
+	background: #e6dccc;
 	color: #000000 !important;
 	border-radius: 0px !important
 }
@@ -249,7 +251,7 @@ img.floatleft {
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgb(166 141 121) !important;
-        color: #F5F0DC !important;
+        color: #e6dccc !important;
 	border: none !important
 }
 
@@ -285,7 +287,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: #A07C4C;
+	background: #a68d79;
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 10px
@@ -298,7 +300,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: #534038 !important;
-	color: #F5F0DC !important;
+	color: #e6dccc !important;
 	border-radius: 10px
 }
 
@@ -309,7 +311,7 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: #F5F0DC !important;
+	background: #e6dccc !important;
         color: #534038;
 	border-radius: 10px
 }
@@ -353,7 +355,7 @@ td.right {
 
 .feature,
 div.left {
-	background: #A07C4C;
+	background: #a68d79;
 	border: none;
 	border-radius: 10px !important
 }
@@ -382,12 +384,12 @@ textarea {
 
 .item-header {
 	background: rgb(83 64 56) !important;
-	color: #F5F0DC  !important;
+	color: #e6dccc  !important;
 	border-radius: 10px !important;
 }
 
 .item {
-	background: #F5F0DC !important;
+	background: #e6dccc !important;
 	border: none !important;
 	border-radius: 10px !important
 }
@@ -395,7 +397,7 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #A07C4C !important
+	background: #a68d79 !important
 }
 
 div.slider.round::before /* Circle Part */ {
@@ -438,7 +440,7 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #A07C4C
+	background: #a68d79
 }
 
 
